@@ -1,0 +1,7 @@
+<library path="actuator_state_broadcaster">
+  <class name="actuator_state_broadcaster/ActuatorStateBroadcaster" type="actuator_state_broadcaster::ActuatorStateBroadcaster" base_class_type="controller_interface::ControllerInterface">
+    <description>
+      The actuator state controller is publishes the current actuator state as a sensor_msgs/JointState message. The actuator state controller expects a ActuatorStateInterface type of hardware interface.
+    </description>
+  </class>
+</library>
