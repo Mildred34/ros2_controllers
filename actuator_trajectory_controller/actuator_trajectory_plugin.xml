@@ -1,0 +1,7 @@
+<library path="actuator_trajectory_controller">
+  <class name="actuator_trajectory_controller/ActuatorTrajectoryController" type="actuator_trajectory_controller::ActuatorTrajectoryController" base_class_type="controller_interface::ControllerInterface">
+  <description>
+    The actuator trajectory controller executes actuator-space trajectories on a set of actuators
+  </description>
+  </class>
+</library>
